@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  url: MyString
+  slug: MyString
+  voters: 
+  votes: 1
+  relevance: 1
+
+two:
+  title: MyString
+  url: MyString
+  slug: MyString
+  voters: 
+  votes: 1
+  relevance: 1

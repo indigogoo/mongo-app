@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @story.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @story.url %>
+</p>
+
+<p>
+  <strong>Slug:</strong>
+  <%= @story.slug %>
+</p>
+
+<p>
+  <strong>Voters:</strong>
+  <%= @story.voters %>
+</p>
+
+<p>
+  <strong>Votes:</strong>
+  <%= @story.votes %>
+</p>
+
+<p>
+  <strong>Relevance:</strong>
+  <%= @story.relevance %>
+</p>
+
+<%= link_to 'Edit', edit_story_path(@story) %> |
+<%= link_to 'Back', stories_path %>
